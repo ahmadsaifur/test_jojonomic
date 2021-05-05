@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <script>
+      function onLoadHandler() {
+        executeQ1();
+        executeQ2();
+        executeQ3();
+        executeQ4();
+      }
+    </script>
+<link rel="stylesheet" href="./style.css" type="text/css">
+<script type=text/javascript src="./script.js" defer></script>
+
+  </head>
+  <body onload="onLoadHandler()">
+    <header>
+      <h1>Jojonomic Front End Test</h1>
+    </header>
+    <div class="header">
+      <h2>Javascript/CSS Interview Test</h2>
+    </div>
+    <div class="wrapper">
+      <div class="description">
+        <p>Please answer the following questions in the Javascript or CSS section depending on its topic.</p>
+        <p>Each Javascript question has a function that will get triggered on which you can add your answer or initialize any process you want. For each question you should update only the section that is meant for it.</p>
+        <br/>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>1. Updating only <span class="file-name">executeQ1</span> function make it display your name in the following line:</p>
+        </div>
+        <div class="answer">
+          <p>Hello, my name is <span id="my-name"></span></p>
+        </div>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>2. Given the array <span class="variable-name">listItems</span> defined in the Question 2 section, update <span class="file-name">executeQ2</span> function to display each element as an item.</p>
+        </div>
+        <div class="answer">
+          <ol id="q2-list"></ol>
+        </div>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>3. Given the <span class="variable-name">Person</span> class in the Question 3 section,  update <span class="file-name">executeQ3</span> function, create two instances and give the name "Scott" to the first one and "Matt" to the second one. Then display their names in the list.</p>
+        </div>
+        <div class="answer">
+          <ul id="q3-list"></ul>
+        </div>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>4. Get the content of <span class="file-name">https://gist.githubusercontent.com/awadhawan18/54592d9ec5e7be1b39013cdd7e78dae4/raw/54a90fe99b8e821e273e1997f356d04308bdb232/Random-images.json</span> and use it to create an array that will have the keys of all images. Display the array in the "#q4-answer" div using JSON stringify.</p>
+          <p>The answer should look like the following:</p>
+          <div class="answer-example">["Lady with a red umbrella", "Flowers and some fruits", "Beautiful scenery", "Some kind of bird", "The attack of dragons"]</div>
+        </div>
+        <div class="answer">
+          <div id="q4-answer"></div>
+        </div>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>5. Using <span class="file-name">css/question5.css</span> style the following blocks to be on a 3x2 grid having the grey background cover all of them.</p>
+          <p>Also, update the CSS to make odd blocks (1, 3, 5) to be green (#00FF00) instead.</p>
+        </div>
+        <div class="answer">
+          <div class="q5-wrapper">
+            <div class="q5-block"></div>
+            <div class="q5-block"></div>
+            <div class="q5-block"></div>
+            <div class="q5-block"></div>
+            <div class="q5-block"></div>
+            <div class="q5-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <div class="description">
+          <p>6. Using <span class="file-name">css/question6.css</span> to style this page as follows:</p>
+          <ul>
+            <li>Header should be red (#F00) with white (#FFF) text aligned to the center.</li>
+            <li>Make all file names (class "file-name") to be blue (#00F) and bold.</li>
+            <li>Make your name to display all in uppercase.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

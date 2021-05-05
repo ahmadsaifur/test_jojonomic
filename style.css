@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+.question {
+    margin-bottom: 60px;
+}
+.question .description {
+    font-size: 18px;
+}
+
+
+/********************************
+ * QUESTION 5.
+ *******************************/
+.q5-wrapper {
+    background: #00FF00;
+}
+.q5-wrapper .q5-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #333;
+}
+.q5-block{
+    color: #bdc7bd;
+    text-decoration: inherit;
+    border-radius: 5 solid 2px;
+    flex: 1;
+}
+
+/* Add your code after this line */
+
+
+/********************************
+ * QUESTION 6.
+ *******************************/
+/* Add your code after this line */
+
+
